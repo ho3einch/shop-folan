@@ -777,6 +777,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
+@font-face {
+  font-family: 'yekan';
+
+  src: url('fonts/BYekan.ttf');
+
+  font-weight: normal
+}
+
+@font-face {
+  font-family: 'yekan';
+
+  src: url('fonts/BYekanBold.ttf');
+
+  font-weight: bold
+}
+
 .rowlr {
   display: flex;
   width: 100%;

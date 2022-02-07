@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@font-face {
+  font-family: 'yekan';
+  src: url('fonts/BYekan.ttf');
+  font-weight: normal
+}
+@font-face {
+  font-family: 'yekan';
+  src: url('fonts/BYekanBold.ttf');
+  font-weight: bold
+}
 .rowlr{
   @apply flex flex-row w-full justify-between;
 }
