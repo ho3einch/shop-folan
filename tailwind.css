@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.rowlr{
+  @apply flex flex-row w-full justify-between;
+}
+
+.hedear .textupheader{
+  @apply hover:shadow hover:text-stone-400 text-white font-bold;
+}  
+
+.hedear .search_box{
+  @apply h-[70%] border-r-2 border-gray-400 relative flex-auto min-w-0 block font-[yekan] font-bold w-full px-3 py-1.5 text-right text-gray-600 bg-gray-300 bg-clip-padding transition ease-in-out m-0 focus:text-gray-700 focus:bg-gray-300 focus:outline-none
+}
+
+.baner_pic{
+  @apply shadow-lg hover:shadow-2xl rounded-[10px];
+}
+
+.baner_minipic{
+  @apply h-[130px] w-[210] m-[3px];
+  background-size: contain;
+  background-position: center center;
+}
+.baner .botton{
+  @apply bg-fuchsia-600 h-7 w-7 hover:shadow-xl hover:bg-fuchsia-800 rounded-[3px] border-2 border-white;
+}
+
+.baner .dot_inner{
+  @apply w-[15px] h-[5px] rounded-full bg-white hover:bg-gray-600 p-[5px] m-[5px] shadow-2xl;
+}
+
+.baner .navar_inner{
+  @apply flex flex-row h-[20px] px-[50px] items-center;
+}
+.baner .dot_inner_click{
+  @apply w-[20px] h-[6px] rounded-full bg-gray-700 hover:bg-gray-600 p-[6px] m-[5px] shadow;
+}
+
+.category .part1{
+  @apply flex flex-row h-[70px] w-[1100px];
+}
+
+.category .pic{
+  @apply h-[100px] w-[100px] m-[5px] rounded-md hover:h-[110px] hover:w-[110px] hover:filter-none ;
+  filter: grayscale(100%);
+  background-size: contain;
+  background-position: center center;
+}
+
+body {
+    font-family: 'yekan';
+  }
+
