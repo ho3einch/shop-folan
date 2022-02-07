@@ -3,63 +3,62 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'yekan';
-  src: url('fonts/BYekan.ttf');
-  font-weight: normal
+	font-family: "yekan";
+	src: url("fonts/BYekan.ttf");
+	font-weight: normal;
 }
 @font-face {
-  font-family: 'yekan';
-  src: url('fonts/BYekanBold.ttf');
-  font-weight: bold
+	font-family: "yekan";
+	src: url("fonts/BYekanBold.ttf");
+	font-weight: bold;
 }
-.rowlr{
-  @apply flex flex-row w-full justify-between;
-}
-
-.hedear .textupheader{
-  @apply hover:shadow hover:text-stone-400 text-white font-bold;
-}  
-
-.hedear .search_box{
-  @apply h-[70%] border-r-2 border-gray-400 relative flex-auto min-w-0 block font-[yekan] font-bold w-full px-3 py-1.5 text-right text-gray-600 bg-gray-300 bg-clip-padding transition ease-in-out m-0 focus:text-gray-700 focus:bg-gray-300 focus:outline-none
+.rowlr {
+	@apply flex w-full flex-row justify-between;
 }
 
-.baner_pic{
-  @apply shadow-lg hover:shadow-2xl rounded-[10px];
+.hedear .textupheader {
+	@apply font-bold text-white hover:text-stone-400 hover:shadow;
 }
 
-.baner_minipic{
-  @apply h-[130px] w-[210] m-[3px];
-  background-size: contain;
-  background-position: center center;
-}
-.baner .botton{
-  @apply bg-fuchsia-600 h-7 w-7 hover:shadow-xl hover:bg-fuchsia-800 rounded-[3px] border-2 border-white;
+.hedear .search_box {
+	@apply relative m-0 block h-[70%] w-full min-w-0 flex-auto border-r-2 border-gray-400 bg-gray-300 bg-clip-padding px-3 py-1.5 text-right font-[yekan] font-bold text-gray-600 transition ease-in-out focus:bg-gray-300 focus:text-gray-700 focus:outline-none;
 }
 
-.baner .dot_inner{
-  @apply w-[15px] h-[5px] rounded-full bg-white hover:bg-gray-600 p-[5px] m-[5px] shadow-2xl;
+.baner_pic {
+	@apply rounded-[10px] shadow-lg hover:shadow-2xl;
 }
 
-.baner .navar_inner{
-  @apply flex flex-row h-[20px] px-[50px] items-center;
+.baner_minipic {
+	@apply m-[3px] h-[130px] w-[210];
+	background-size: contain;
+	background-position: center center;
 }
-.baner .dot_inner_click{
-  @apply w-[20px] h-[6px] rounded-full bg-gray-700 hover:bg-gray-600 p-[6px] m-[5px] shadow;
-}
-
-.category .part1{
-  @apply flex flex-row h-[70px] w-[1100px];
+.baner .botton {
+	@apply h-7 w-7 rounded-[3px] border-2 border-white bg-fuchsia-600 hover:bg-fuchsia-800 hover:shadow-xl;
 }
 
-.category .pic{
-  @apply h-[100px] w-[100px] m-[5px] rounded-md hover:h-[110px] hover:w-[110px] hover:filter-none ;
-  filter: grayscale(100%);
-  background-size: contain;
-  background-position: center center;
+.baner .dot_inner {
+	@apply m-[5px] h-[5px] w-[15px] rounded-full bg-white p-[5px] shadow-2xl hover:bg-gray-600;
+}
+
+.baner .navar_inner {
+	@apply flex h-[20px] flex-row items-center px-[50px];
+}
+.baner .dot_inner_click {
+	@apply m-[5px] h-[6px] w-[20px] rounded-full bg-gray-700 p-[6px] shadow hover:bg-gray-600;
+}
+
+.category .part1 {
+	@apply flex h-[70px] w-[1100px] flex-row;
+}
+
+.category .pic {
+	@apply m-[5px] h-[100px] w-[100px] rounded-md hover:h-[110px] hover:w-[110px] hover:filter-none;
+	filter: grayscale(100%);
+	background-size: contain;
+	background-position: center center;
 }
 
 body {
-    font-family: 'yekan';
-  }
-
+	font-family: "yekan";
+}
